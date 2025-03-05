@@ -8187,7 +8187,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   font-weight: 900;
   font-size: 24px;
-  padding: 0;
+  padding: 10px;
   line-height: 1; }
 
 .hero-wrap {
