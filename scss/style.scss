@@ -356,6 +356,10 @@ h1, h2, h3, h4, h5,
 }
 
 //OWL CAROUSEL
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+	-ms-touch-action: auto;
+	touch-action: auto;
+}
 .owl-carousel {
 	position: relative;
 	.owl-item {
