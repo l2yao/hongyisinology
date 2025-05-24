@@ -423,13 +423,13 @@ h1, h2, h3, h4, h5,
 	}
 	&.home-slider {
 		position: relative;
-		height: 600px;
+		height: 100vh;
 		z-index: 0;
 		.slider-item {
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center center;
-			height: 600px;
+			height: 100vh;
 			position: relative;
 			z-index: 0;
 			@include media-breakpoint-down(lg){
@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5,
 				opacity: .2;
 			}
 			.slider-text {
-				height: 600px;
+				height: 100vh;
 				@include media-breakpoint-down(sm){
 					text-align: center;
 				}
