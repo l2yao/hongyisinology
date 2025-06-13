@@ -152,7 +152,7 @@ Are you looking for more components? Please check our Premium Version of Materia
 
 ## Useful Links
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+- [Tutorials](https://www.youtube.com/@HongyiSinology)
 - [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=mk2-github-readme) (earn money)
 - [Blog Creative Tim](https://www.creative-tim.com/blog?ref=mk2-github-readme)
 - [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=mk2-github-readme) from Creative Tim
