@@ -29158,3 +29158,7 @@ pre[class*=language-] {
 }
 
 /*# sourceMappingURL=kit-free.css.map */
+iframe { 
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
