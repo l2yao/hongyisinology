@@ -1,2 +1,0 @@
-# hongyisinology
-Hong Yi Sinology
