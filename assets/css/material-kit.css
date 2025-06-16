@@ -29162,3 +29162,10 @@ iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
 }
+
+.zhi-mang-xing {
+  font-family: "Zhi Mang Xing", cursive;
+  font-weight: 400;
+  font-size: xx-large;
+  font-style: normal;
+}
