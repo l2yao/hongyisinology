@@ -1,0 +1,21 @@
+# SEO Configuration for Hongyi Sinology (弘毅私塾)
+User-agent: *
+Allow: /
+Disallow: /assets/scss/
+Disallow: /docs/
+Disallow: /pages/
+Disallow: /sections/
+Disallow: /scripts/
+
+# Crawl delay in seconds to be respectful to server
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://hongyisinology.ca/sitemap.xml
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
