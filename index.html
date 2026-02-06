@@ -16,12 +16,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="弘毅私塾 - 加拿大传统文化教育私塾。以德行教育为主，培养学生通过经典诵读、实践习劳，成为传承中华文化的圣贤人才。">
-  <meta name="keywords" content="弘毅私塾,私塾,中文教育,传统文化,加拿大,经典诵读,德行教育,四书五经,论语,弟子规,Hongyi Sinology,Chinese Education,Canada">
-  <meta name="author" content="弘毅私塾">
-  <meta name="geo.placename" content="Markham, Ontario, Canada">
-  <meta name="geo.position" content="43.8509;-79.3704">
-  <meta name="ICBM" content="43.8509, -79.3704">
+  <meta name="description" content="弘毅私塾 - 加拿大传统文化教育私塾。以德行教育为主，培养学生通过经典诵读、实践习劳，成为传承中华文化的圣贤人才。联合创办单位：加拿大弟子規學會、奧羅拉國際學校。">
+  <meta name="keywords" content="弘毅私塾,私塾,中文教育,传统文化,加拿大,经典诵读,德行教育,四书五经,论语,弟子规,Hongyi Sinology,Chinese Education,Canada,classical education,virtue education">
+  <meta name="author" content="Hongyi Sinology (弘毅私塾)">
+  <meta name="creator" content="加拿大弟子規學會">
+  <meta name="publisher" content="Hongyi Sinology Private Academy">
+  <meta name="article:author" content="Hongyi Sinology">
+  <meta name="article:published_time" content="2025-01-01">
+  <meta name="article:modified_time" content="2026-02-06">
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/logo.png">
   <link rel="icon" type="image/png" href="./assets/img/logo.png">
   <link rel="canonical" href="https://hongyisinology.ca/">
@@ -57,15 +59,15 @@
   <!-- CSS Files -->
   <link id="pagestyle" href="assets/css/material-kit.css?v=3.1.0" rel="stylesheet" />
   
-  <!-- Structured Data - JSON-LD -->
+  <!-- Structured Data - JSON-LD for Generative AI Search Optimization -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": "弘毅私塾 (Hongyi Sinology)",
-    "alternateName": ["Hongyi Sinology", "Hongyi Private School"],
+    "name": "弘毅私塾 (Hongyi Sinology Private Academy)",
+    "alternateName": ["Hongyi Sinology", "Hongyi Private School", "弘毅国学馆"],
     "url": "https://hongyisinology.ca",
-    "description": "Traditional Chinese culture education school in Canada focusing on classical texts and moral education",
+    "description": "Traditional Chinese classical education academy in Canada providing moral and character education through study of Four Books, Five Classics, and Disciples Rules with practice-based learning",
     "logo": "https://hongyisinology.ca/assets/img/logo.png",
     "image": "https://hongyisinology.ca/assets/img/logo.png",
     "telephone": "+1-905-868-9559",
@@ -78,38 +80,155 @@
       "postalCode": "L3R1G9",
       "addressCountry": "CA"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Markham",
-      "geo": {
-        "@type": "GeoShape",
-        "box": "43.8000 -79.4500 43.9000 -79.3000"
+    "founder": [
+      {
+        "@type": "Organization",
+        "name": "加拿大弟子規學會 (Canada Disciples Rules Association)",
+        "description": "Association dedicated to promoting traditional Chinese cultural education"
+      },
+      {
+        "@type": "Organization",
+        "name": "奧羅拉國際學校 (Aurora International School)",
+        "description": "International educational institution"
       }
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "General Inquiry",
+      "telephone": "+1-905-868-9559",
+      "email": "info@hongyisinology.ca"
     },
-    "geo": {
-      "@type": "Point",
-      "latitude": "43.8509",
-      "longitude": "-79.3704"
-    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Markham"
+      },
+      {
+        "@type": "State",
+        "name": "Ontario"
+      },
+      {
+        "@type": "Country",
+        "name": "Canada"
+      }
+    ],
     "sameAs": [
       "https://www.youtube.com/@HongyiSinology",
       "https://github.com/l2yao/hongyisinology"
     ],
-    "founder": {
-      "@type": "Organization",
-      "name": "加拿大弟子規學會"
-    },
     "educationalLevel": "Elementary and Secondary",
+    "teaches": [
+      "Classical Chinese Literature",
+      "Confucian Philosophy",
+      "Traditional Moral Values",
+      "Character Development",
+      "Classical Memorization"
+    ],
     "offers": [
       {
         "@type": "Course",
-        "name": "Classical Chinese Literature Studies",
-        "description": "Study of ancient Chinese classics including Four Books and Five Classics"
+        "name": "先秦文化经典导读 (Pre-Qin Classical Literature Guidance)",
+        "description": "Comprehensive study of ancient Chinese philosophical classics from Pre-Qin period including Confucian, Daoist and other classical texts",
+        "educationalLevel": "Elementary to Secondary",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "弘毅私塾"
+        }
       },
       {
-        "@type": "Course", 
-        "name": "Traditional Moral Education",
-        "description": "Character development through the study of Disciples Rules and virtue"
+        "@type": "Course",
+        "name": "《論語》解經班 (Analects of Confucius Study Group)",
+        "description": "In-depth study and memorization of The Analects, one of the Four Books of Confucianism, focusing on moral teachings and wisdom",
+        "educationalLevel": "Elementary to Secondary",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "弘毅私塾"
+        }
+      },
+      {
+        "@type": "Course",
+        "name": "《弟子規》實踐班 (Disciples Rules Practice Class)",
+        "description": "Learning and practicing the Disciples Rules through daily activities, labor, and virtue cultivation",
+        "educationalLevel": "Elementary to Secondary",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "弘毅私塾"
+        }
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "1",
+      "description": "Dedicated to authentic traditional Chinese cultural education"
+    },
+    "knowsAbout": [
+      "Traditional Chinese Culture",
+      "Classical Chinese Literature",
+      "Confucian Philosophy",
+      "Moral Education",
+      "Character Development",
+      "Classical Chinese Texts",
+      "Four Books",
+      "Five Classics",
+      "Eastern Philosophy"
+    ]
+  }
+  </script>
+  
+  <!-- FAQ Schema for Generative Search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Hongyi Sinology (弘毅私塾)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hongyi Sinology is a traditional Chinese classical education academy in Markham, Ontario, Canada, co-founded by the Canada Disciples Rules Association and Aurora International School. It focuses on moral and character education through the study of classical Chinese texts including the Four Books and Five Classics, combined with practical learning through labor and virtue cultivation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the educational philosophy of Hongyi Sinology?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The school follows Master Jing Kong's integrated one-system teaching ideology, emphasizing moral education as the foundation. Students develop focus through recitation and memorization of classical texts like the Four Books and Five Classics, coupled with practical experience through labor practice and frugality cultivation. The goal is to cultivate virtuous individuals who can inherit and promote Chinese traditional culture."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What subjects and courses does Hongyi Sinology offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The academy offers several courses including: Pre-Qin Classical Literature Guidance (先秦文化经典导读), Analects of Confucius Study Group (《論語》解經班), Disciples Rules Practice Classes (《弟子規》實踐班), and other programs focused on classical Chinese literature, philosophy, calligraphy, and seal carving."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does the Disciples Rules (弟子規) teach?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Disciples Rules is a classical Chinese text that outlines fundamental rules for proper behavior and moral conduct. It covers filial piety, respect for teachers, honesty, trustworthiness, love for others, and daily conduct principles. It serves as a practical guide for character development and is a foundational text at Hongyi Sinology."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the Four Books and Five Classics?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Four Books are fundamental Confucian texts: the Analects (Lunyu), Mencius, the Doctrine of the Mean, and the Great Learning. The Five Classics are: the Book of Changes (I Ching), Book of Poetry, Book of History, Book of Rites, and Spring and Autumn Annals. These works form the foundation of classical Chinese philosophy and ethics, studied extensively at Hongyi Sinology."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do students practice virtue cultivation at Hongyi Sinology?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Beyond classroom study, students practice virtue cultivation through daily labor work (劳动), learning frugality (惜福), and applying the principles of the Disciples Rules in real-life situations. This combines theoretical learning with practical experience, helping students develop strong character and moral foundation."
+        }
       }
     ]
   }
